@@ -15,5 +15,4 @@ class Student:
     def set_age(self, age):
         self.__age = age
 
-    def get_all_info(self):
-        return [self.__name, self.__age]
+  
