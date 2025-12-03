@@ -14,12 +14,13 @@ class Student:
 
     def set_age(self, age):
         self.__age= age
+    def get_all_info(self):
+        return [self.__name, self.__age]
 
 s =Student("mohamed",21)
 s.set_age(21)
 print(s.get_age())
 
-    def get_all_info(self):
-        return [self.__name, self.__age]
+
 std1 = Student('mohamed', 20)
 print(std1.get_all_info())
