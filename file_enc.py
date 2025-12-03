@@ -15,4 +15,6 @@ class Student:
     def set_age(self, age):
         self.__age= age
 
-  
+s =Student("mohamed",21)
+s.set_age(21)
+print(s.get_age())
